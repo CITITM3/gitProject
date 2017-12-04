@@ -1,0 +1,15 @@
+re_script:
+    - echo "Before script section"
+    - echo "For example you might run a update here or install a build dependency"
+    - echo "Or perhaps you might print out some debugging details"
+    - chmod +x simple-script
+    
+after_script:
+    - echo "After script section"
+    - echo "For example you might do some cleanup here."
+    echo "Finish"
+    
+build:
+    stage:build
+    script:
+    - ./simple-script
