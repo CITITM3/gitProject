@@ -12,4 +12,4 @@ after_script:
 build:
     stage:build
     script:
-    - ./simple-script
+    - simple-script
