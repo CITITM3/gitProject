@@ -7,7 +7,7 @@ re_script:
 after_script:
     - echo "After script section"
     - echo "For example you might do some cleanup here."
-    echo "Finish"
+    -  echo "Finish"
     
 build:
     stage:build
